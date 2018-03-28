@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.chartBase div {
+    font: 10px sans-serif;
+    background-color: rgb(50, 108, 156);
+    text-align: right;
+    padding: 3px;
+    margin: 5px;
+    color: white;
+  }
