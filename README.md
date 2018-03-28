@@ -1,5 +1,7 @@
 # D3Stuff
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/lgmagalhaes88/D3-Stuff.svg)](https://greenkeeper.io/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
 
 ## Development server
