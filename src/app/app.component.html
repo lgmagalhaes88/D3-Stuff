@@ -1,20 +1,58 @@
-<div id="accordion">
+<div id="accordion" class="container mt-2">
+
   <div class="card">
     <div class="card-header" id="headingOne">
       <h5 class="mb-0">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Exercice #1
+          Exercice #1 - simple charts
         </button>
       </h5>
     </div>
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
       <div class="card-body">
-          <h5 class="card-title">Not using d3.scaleLinear()</h5>
+        <h5 class="card-title">Not using d3.scaleLinear()</h5>
         <div class="chart border border-primary chartBase" style="width: 320px;"></div>
       </div>
       <div class="card-body">
-          <h5 class="card-title">Using d3.scaleLinear()</h5>
+        <h5 class="card-title">Using d3.scaleLinear()</h5>
         <div class="chart2 chartBase border border-primary" style="width: 320px;"></div>
       </div>
     </div>
   </div>
+
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+          Exercice #2 - simple circles
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body border">
+        <h5 class="card-title">Fixed circles
+          <small>(Boring)</small>
+        </h5>
+        <svg width="720" height="120">
+          <circle cx="40" cy="60" r="10" class="circleIE"></circle>
+          <circle cx="80" cy="60" r="10" class="circleIE"></circle>
+          <circle cx="120" cy="60" r="10" class="circleIE"></circle>
+        </svg>
+      </div>
+      <div class="card-body border">
+        <h5 class="card-title">Dancing random circles</h5>
+        <svg width="720" height="120">
+          <circle cx="40" cy="60" r="10" class="circleIEDance"></circle>
+          <circle cx="80" cy="60" r="10" class="circleIEDance"></circle>
+          <circle cx="120" cy="60" r="10" class="circleIEDance"></circle>
+        </svg>
+      </div>
+      <div class="card-body border">
+        <h5 class="card-title">Circle generation</h5>
+        <svg width="720" height="120" class="generatingSVG">
+        </svg>
+      </div>
+    </div>
+  </div>
+
+</div>
